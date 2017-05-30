@@ -46,7 +46,7 @@ namespace rmmseg
         int next_word();
         int next_char();
         std::vector<Word *> find_match_words();
-        int max_word_length() { return 4; }
+        int max_word_length() { return 10; }
 
         
         const char *m_text;
